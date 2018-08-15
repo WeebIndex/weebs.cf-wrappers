@@ -23,3 +23,12 @@ def punch():
 
 def slap():
   return requests.get('https://weebs.cf/random/slap').text
+
+def bite():
+  return requests.get('https://weebs.cf/random/bite').text
+  
+def love():
+  return requests.get('https://weebs.cf/random/love').text
+
+def think():
+  return requests.get('https://weebs.cf/random/think').text

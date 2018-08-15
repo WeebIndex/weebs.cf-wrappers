@@ -31,6 +31,21 @@ class weebs {
     $text = file_get_contents("https://weebs.cf/random/laugh");
     return $text;
   }
+
+  public static function bite() {
+    $text = file_get_contents("https://weebs.cf/random/bite");
+    return $text;
+  }
+
+  public static function love() {
+    $text = file_get_contents("https://weebs.cf/random/love");
+    return $text;
+  }
+
+  public static function think() {
+    $text = file_get_contents("https://weebs.cf/random/think");
+    return $text;
+  }
   
 
 }
